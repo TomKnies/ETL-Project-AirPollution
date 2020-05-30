@@ -14,8 +14,9 @@ Each team member selected a specific city dataset.
 •	Thomas Laws: New Delhi, India
 •	Thomas Knies: Seoul, South Korea 
 •	Grace Huefner: New York, USA
-We each used Pandas to cleaned the data to make sure that categories and measurements were aligned. Then split them out by year and air pollutant.  
-We then put that cleaned data into a SQL database. From that SQL database we joined the data into three tables. Adding in the year of each and measurement of the pollutants per city. 
+We each used Pandas to cleaned the data to make sure that categories and measurements were aligned. Most of the datasets were measured on a daily basis so we calculated out the average for the year and ensured that the measurement units were the same. We then split them out by year and air pollutant.  
+
+We then put that cleaned data into a SQL database.
 
 # Load
-We loaded and combined the tables by pollutant by year (pollutant columns, city rows) 
+ From the individuals SQL databases we joined the data into three tables by year 2017, 2018, 2019. The cities and pollutants are reflected in that table's year. We chose SQL because it made the most sense when trying to combine this data into one source. 
