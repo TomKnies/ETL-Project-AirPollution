@@ -14,7 +14,7 @@ Each team member selected a specific city dataset.
 •	Thomas Laws: New Delhi, India
 •	Thomas Knies: Seoul, South Korea 
 •	Grace Huefner: New York, USA
-We each used Pandas to cleaned the data to make sure that categories and measurements were aligned. Most of the datasets were measured on a daily basis so we calculated out the average for the year and ensured that the measurement units were the same. We then split them out by year and air pollutant.  
+We each used Pandas to clean the data to make sure that categories and measurements were aligned. Most of the datasets were measured on a daily basis so we calculated out the average for the year and ensured that the measurement units were the same. We then split them out by year and air pollutant.  
 
 We then put that cleaned data into a SQL database.
 
